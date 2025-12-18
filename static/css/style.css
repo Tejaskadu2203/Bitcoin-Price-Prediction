@@ -1,0 +1,150 @@
+:root {
+    --primary-color: #F7931A;
+    --primary-color-light: #fab54d;
+    --primary-color-dark: #c57615;
+    --bg-color: #FFFFFF;
+    --text-color: #262730;
+    --secondary-bg-color: #F0F2F6;
+    --border-color: #E6E9EF;
+}
+
+body.dark-mode {
+    --bg-color: #262730;
+    --text-color: #FFFFFF;
+    --secondary-bg-color: #1E2029;
+    --border-color: #39393f;
+}
+
+body {
+    background-color: var(--bg-color);
+    color: var(--text-color);
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.card {
+    background-color: var(--bg-color);
+    border-color: var(--border-color);
+    transition: background-color 0.3s;
+}
+
+.card-header {
+    background-color: var(--secondary-bg-color);
+    border-color: var(--border-color);
+}
+
+.nav-tabs {
+    border-color: var(--border-color);
+}
+
+.nav-tabs .nav-link.active {
+    background-color: var(--bg-color);
+    color: var(--primary-color);
+    border-color: var(--border-color);
+    border-bottom-color: var(--bg-color);
+}
+
+.nav-tabs .nav-link:not(.active) {
+    color: var(--text-color);
+}
+
+.border {
+    border-color: var(--border-color) !important;
+}
+
+.table {
+    color: var(--text-color);
+}
+
+.price-display {
+    color: var(--primary-color);
+    font-weight: bold;
+}
+
+.price-change {
+    font-size: 0.9rem;
+}
+
+.price-change.positive {
+    color: #28a745;
+}
+
+.price-change.negative {
+    color: #dc3545;
+}
+
+.current-price {
+    font-weight: bold;
+}
+
+.price-value {
+    color: var(--primary-color);
+}
+
+.form-range::-webkit-slider-thumb {
+    background: var(--primary-color);
+}
+
+.form-range::-moz-range-thumb {
+    background: var(--primary-color);
+}
+
+.form-check-input:checked {
+    background-color: var(--primary-color);
+    border-color: var(--primary-color);
+}
+
+.btn-primary {
+    background-color: var(--primary-color);
+    border-color: var(--primary-color-dark);
+}
+
+.btn-primary:hover {
+    background-color: var(--primary-color-dark);
+    border-color: var(--primary-color-dark);
+}
+
+.text-primary {
+    color: var(--primary-color) !important;
+}
+
+/* Animations */
+@keyframes pulse {
+    0% { transform: scale(1); }
+    50% { transform: scale(1.05); }
+    100% { transform: scale(1); }
+}
+
+.price-pulse {
+    animation: pulse 1s ease-in-out;
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+
+.fade-in {
+    animation: fadeIn 0.5s ease-in-out;
+}
+
+@keyframes slideIn {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.slide-in {
+    animation: slideIn 0.5s ease-out;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    #prediction-chart, #historical-chart, #accuracy-chart {
+        height: 350px;
+    }
+}
