@@ -74,3 +74,17 @@ CSS
 Replit Agent (used for ML-assisted development and code generation)
 
 Git & GitHub
+
+💻 Installation & Setup
+
+This project is intended for academic and learning purposes.
+
+Requirements
+- Python 3.x
+- Basic knowledge of Python
+
+Steps to Run the Project
+1. Download or clone the repository from GitHub
+2. Open the project folder on your system
+3. Install required Python libraries using:
+
