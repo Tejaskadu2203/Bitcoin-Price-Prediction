@@ -5,8 +5,6 @@ This project is a web-based Bitcoin price prediction application developed as pa
 
 The application predicts Bitcoin prices for the next 1 to 5 days using historical market data and machine learning concepts. The main goal of this project is to understand the end-to-end workflow of a price prediction system — from data handling to model prediction and web deployment.
 
-This project is learning-oriented and focuses on conceptual understanding and implementation, not real-world trading accuracy.
-
 🎯 Objectives
 
 Understand how time-series price prediction works
@@ -20,6 +18,7 @@ Gain exposure to data preprocessing and prediction flow
 Practice end-to-end project deployment structure
 
 🚀 Features 
+
 Predicts Bitcoin prices for 1–5 future days
 
 Uses historical Bitcoin price data
@@ -30,8 +29,7 @@ Flask-based backend application
 
 Clear display of predicted results
 
-**🧠 How the Project Works (High-Level Flow)
-**
+🧠 How the Project Works (High-Level Flow)
 
 User Input
 
@@ -43,8 +41,7 @@ Historical Bitcoin price data is processed
 
 Data is prepared for prediction (cleaning, formatting)
 
-**Prediction Logic
-**
+📖 Prediction Logic
 
 Machine learning concepts are applied to forecast prices
 
@@ -54,9 +51,7 @@ Result Display
 
 Predicted prices are shown on the web interface
 
-**🛠 Tech Stack
-**
-Programming & Frameworks
+🛠 Tech Stack
 
 Python
 
@@ -74,8 +69,7 @@ HTML
 
 CSS
 
-**Tools
-**
+🧰 Tools
 
 Replit Agent (used for ML-assisted development and code generation)
 
