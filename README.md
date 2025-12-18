@@ -1,14 +1,14 @@
 📈 Bitcoin Price Prediction (1–5 Days)
 
-** 📌 Project Overview **
+📌 Project Overview 
 This project is a web-based Bitcoin price prediction application developed as part of my B.Sc Data Science final year academic project.
 
 The application predicts Bitcoin prices for the next 1 to 5 days using historical market data and machine learning concepts. The main goal of this project is to understand the end-to-end workflow of a price prediction system — from data handling to model prediction and web deployment.
 
 This project is learning-oriented and focuses on conceptual understanding and implementation, not real-world trading accuracy.
 
-**🎯 Objectives
-**
+🎯 Objectives
+
 Understand how time-series price prediction works
 
 Learn how machine learning models integrate with web applications
@@ -19,7 +19,7 @@ Gain exposure to data preprocessing and prediction flow
 
 Practice end-to-end project deployment structure
 
-**🚀 Features **
+🚀 Features 
 Predicts Bitcoin prices for 1–5 future days
 
 Uses historical Bitcoin price data
