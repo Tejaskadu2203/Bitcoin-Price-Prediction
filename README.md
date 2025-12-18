@@ -29,6 +29,8 @@ Flask-based backend application
 
 Clear display of predicted results
 
+<img width="267" height="569" alt="Image" src="https://github.com/user-attachments/assets/7210222f-e77c-46f2-a4cf-47f69e0b3b7a" />
+
 🧠 How the Project Works (High-Level Flow)
 
 User Input
@@ -49,7 +51,15 @@ Prediction is generated for the selected future days
 
 Result Display
 
+<img width="774" height="525" alt="Image" src="https://github.com/user-attachments/assets/b7283e6e-1a18-4c84-81d7-2c63cd6159a6" />
+
 Predicted prices are shown on the web interface
+
+<img width="792" height="528" alt="Image" src="https://github.com/user-attachments/assets/f9412618-55ad-42e6-a7ad-8d720c346df2" />
+
+Acuuracy 
+
+<img width="794" height="513" alt="Image" src="https://github.com/user-attachments/assets/4cfd2c2d-a5dd-4adb-9d5a-594f6448c9ba" />
 
 🛠 Tech Stack
 
