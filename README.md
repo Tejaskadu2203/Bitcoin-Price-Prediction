@@ -1,6 +1,6 @@
 📈 Bitcoin Price Prediction (1–5 Days)
 
-📌 Project Overview
+*** 📌 Project Overview ***
 
 This project is a web-based Bitcoin price prediction application developed as part of my B.Sc Data Science final year academic project.
 
